@@ -5,37 +5,30 @@
           <v-text-field
             v-model="firstname"
             :rules="nameRules"
-            label="Login"
+            color="#2e4db4"
+            class="ma-4"
+            label="E-mail"
             required
           ></v-text-field>
           <v-text-field
             v-model="lastname"
             type="password"
             :rules="nameRules"
+            color="#2e4db4"
             label="Password"
             required
           ></v-text-field>
       </v-row>
+      <div class="buttons">
+        <v-btn depressed color="#00995D" class="button" type="submit"
+            >Entrar</v-btn
+          >
+        <v-btn depressed color="#00995D" class="button" type="submit"
+            >Cadastrar</v-btn
+          >
+      </div>
     </v-container>
   </v-form>
-  <!-- <div class="login-container">
-    <input
-      type="text"
-      class="input"
-      id="email"
-      maxlength="80"
-      placeholder="Login"
-    />
-    <input
-      type="password"
-      class="input"
-      id="email"
-      maxlength="80"
-      placeholder="Password"
-    />
-    <div class="buttons">
-    </div>
-  </div> -->
 </template>
 
 <script>
@@ -51,7 +44,7 @@ export default {
     height: 100%;
     width: 100%;
     align-items: center;
-    padding: 20px;
+    padding: 0px 40px 20px 40px;
   }
 
   .input {
@@ -73,6 +66,19 @@ export default {
 
   .input::placeholder {
     color: #000;
+  }
+
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button {
+    color: #ffffff !important;
+    padding: 8px 48px !important;
+    border-radius: 20px;
+    width: 145px;
   }
 
 </style>
