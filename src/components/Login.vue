@@ -20,10 +20,10 @@
           ></v-text-field>
       </v-row>
       <div class="buttons">
-        <v-btn depressed color="#00995D" class="button" type="submit"
+        <v-btn depressed color="#ed1e24" class="button" type="submit"
             >Entrar</v-btn
           >
-        <v-btn depressed color="#00995D" class="button" type="submit"
+        <v-btn depressed color="#ed1e24" class="button" type="submit"
             >Cadastrar</v-btn
           >
       </div>
@@ -69,6 +69,7 @@ export default {
   }
 
   .buttons {
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;

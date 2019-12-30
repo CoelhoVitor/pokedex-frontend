@@ -22,13 +22,14 @@ export default {
 
 <style scoped>
   .main {
-    width: 400px;
-    box-shadow: 0 0 10px;
+    width: 410px;
     border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
   }
 
   .header-pokedex {
-    border-radius: 12px 12px 0 0;
+    border-radius: 10px 10px 0 0;
     border-style: solid;
     border-width: 0 0 2px 0;
     border-color: #000;
