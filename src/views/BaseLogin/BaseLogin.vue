@@ -21,8 +21,8 @@ export default {
 </script>
 
 <style scoped>
-  .main {
-    width: 410px;
+    .main {
+      /* width: 410px; */
     border-radius: 12px;
     border-style: solid;
     border-width: 2px;
